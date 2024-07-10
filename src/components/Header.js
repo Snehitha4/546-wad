@@ -4,14 +4,14 @@ import './Header.css';
 
 function Header() {
   return (
-    <header>
-      <h1>My E-Commerce Site</h1>
+    <header className='flex1'>
+      <h2>546 E-Commerce Site</h2>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
+        <li><Link to="/">Catalogue</Link></li>
           <li><Link to="/register">Register</Link></li>
           <li><Link to="/login">Login</Link></li>
-          <li><Link to="/catalogue">Catalogue</Link></li>
+         
           <li><Link to="/cart">Cart</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <li><Link to="/about">About</Link></li>

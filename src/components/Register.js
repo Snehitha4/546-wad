@@ -1,5 +1,6 @@
 import React from 'react';
 import './Register.css';
+import { Link } from 'react-router-dom';
 
 function Register() {
   return (
@@ -20,6 +21,8 @@ function Register() {
         <input type="date" placeholder="Date of Birth" required />
         <textarea placeholder="About Yourself" required></textarea>
         <button type="submit">Register</button>
+        <p>Already registered?</p>
+        <Link to="/login">Login</Link>
       </form>
     </div>
   );
