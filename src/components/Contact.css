@@ -12,8 +12,15 @@ input, textarea {
 button {
   padding: 10px;
   font-size: 1rem;
-  background-color: #282c34;
+  background-color:green;
   color: white;
   border: none;
   cursor: pointer;
+}
+.contact-container{
+  border: 1px solid black;
+  padding: 30px;
+  margin: auto;
+  margin-top: 110px;
+  width:600px;
 }
