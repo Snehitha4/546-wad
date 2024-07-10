@@ -1,15 +1,15 @@
-header h1 {
+header h3 {
     font-size: 2rem;
   }
   
   nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.5rem;
-    margin:4px
+    font-size: 1.8rem;
+    margin:9px;
   }
   nav{
-    margin-left: 1300px;
+    margin-left: 1600px;
   }
   nav ul li a:hover {
     text-decoration: underline;
