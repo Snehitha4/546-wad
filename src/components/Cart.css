@@ -8,12 +8,16 @@
   .cart-card {
     border: 1px solid #ccc;
     padding: 20px;
-    text-align: left;
-    width: 200px;
+    text-align: center;
+    width: 500px;
   }
   
   .cart-card img {
     width: 100%;
     height: auto;
+  }
+  .cart-btn{
+    font-size: 1.5rem;
+    padding: 10px;
   }
   
